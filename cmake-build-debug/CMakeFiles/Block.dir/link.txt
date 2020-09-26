@@ -1,0 +1,3 @@
+D:\Jetbrains\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Block.dir/objects.a
+D:\mingw\mingw64\bin\ar.exe cr CMakeFiles\Block.dir/objects.a @CMakeFiles\Block.dir\objects1.rsp
+D:\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Block.dir/objects.a -Wl,--no-whole-archive  -o Block.exe -Wl,--out-implib,libBlock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Block.dir\linklibs.rsp
